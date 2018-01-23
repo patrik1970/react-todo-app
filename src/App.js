@@ -107,7 +107,7 @@ class App extends React.Component {
         <h1>{title}</h1>
         <form ref="todoForm">
           <input type="text" ref="todoName" onBlur={(event => {this.setState ({todoName: event.target.value})})} placeholder="What Todo?" />
-          <input type="text" ref="todoDone" onBlur={(event => {this.setState ({todoDone: event.target.value})})} placeholder="Is It Done Yet" />
+          <input type="text" ref="todoDone" onBlur={(event => {this.setState ({todoDone: event.target.value})})} placeholder="Is It Done Yet?" />
           <button onClick={this.addTodo}>Add ToDo</button>
         </form>
         <ul>
