@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -25,4 +25,45 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}*/
+
+.flex-container {
+  display: flow-root;
+  justify-content: center;
+}
+
+.flex-container>h1 {
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+.flex-container>form {
+  margin: 10px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.flex-container>ul {
+  margin: 10px;
+  text-align: center;
+  line-height: 42px;
+  list-style-type: none;
+}
+
+input {
+  margin: 5px;
+}
+
+button {
+  margin-right: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+
+span {
+  margin-right: 10px;
+  font-size: 21px;
 }
