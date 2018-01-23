@@ -111,7 +111,7 @@ class App extends React.Component {
           <button onClick={this.addTodo}>Add ToDo</button>
         </form>
         <ul>
-          {todos.map((todo => <li key={todo.counter}><span>What ToDo? <span>{todo.todoName}</span> Done Yet? <span>{todo.todoDone}</span></span> 
+          {todos.map((todo => <li key={todo.counter}><span>Todo: <span>{todo.todoName}</span> Done Yet? <span>{todo.todoDone}</span></span> 
           <button onClick={this.removeTodo.bind(null, todo.counter)}>Delete ToDo</button>
           <button onClick={this.editTodo.bind(null, todo.counter)}>Edit ToDo</button>
           </li>))}         
