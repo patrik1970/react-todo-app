@@ -1,6 +1,11 @@
 ## React CRUD App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+This is a CRUD app written in React.
+From the beginning i followed this tutorial [React CRUD Application From Scratch](https://www.youtube.com/watch?v=P3JW-pSsnk0).
+
+The tutorial was not complete so I completed it with a edit function and updated the remove function.
+
 ## Up and running
 
 Download the project by clone it.
